@@ -1,0 +1,296 @@
+{
+  "ordinary_harmony": {
+    "parameters": {
+      "unary": [
+        [
+          1,
+          0
+        ],
+        [
+          0.5,
+          0
+        ]
+      ],
+      "start": [
+        0,
+        0
+      ],
+      "transition": [
+        [
+          0.3,
+          0
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "end": [
+        0,
+        0
+      ]
+    },
+    "allowed": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "repeats": []
+  },
+  "ordinary_voicing": {
+    "chords": [
+      [
+        0,
+        4,
+        7
+      ],
+      [
+        2,
+        7,
+        11
+      ]
+    ],
+    "melody": [
+      67
+    ],
+    "single": [
+      [
+        0.9,
+        0.1
+      ]
+    ],
+    "pair": [],
+    "policy": {
+      "ranges": [
+        [
+          48,
+          60
+        ],
+        [
+          52,
+          64
+        ],
+        [
+          67,
+          67
+        ]
+      ],
+      "max_spacing": 19,
+      "max_leap": 4,
+      "eta": 0.3,
+      "motion_weight": 0.02,
+      "ties": []
+    }
+  },
+  "coupling": {
+    "chords": [
+      [
+        0,
+        4,
+        7
+      ],
+      [
+        2,
+        7,
+        11
+      ]
+    ],
+    "melody": [
+      67,
+      67,
+      67
+    ],
+    "parameters_before": {
+      "unary": [
+        [
+          1.5,
+          0
+        ],
+        [
+          0,
+          0.1
+        ],
+        [
+          0.5,
+          0
+        ]
+      ],
+      "start": [
+        0,
+        0
+      ],
+      "transition": [
+        [
+          0.5,
+          0
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "end": [
+        0,
+        0
+      ]
+    },
+    "parameters_after": {
+      "unary": [
+        [
+          1.5,
+          0
+        ],
+        [
+          0,
+          0.1
+        ],
+        [
+          -2,
+          2
+        ]
+      ],
+      "start": [
+        0,
+        0
+      ],
+      "transition": [
+        [
+          0.5,
+          0
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "end": [
+        0,
+        0
+      ]
+    },
+    "allowed": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "repeats": [
+      [
+        0,
+        2
+      ]
+    ],
+    "policy": {
+      "ranges": [
+        [
+          48,
+          60
+        ],
+        [
+          52,
+          64
+        ],
+        [
+          67,
+          67
+        ]
+      ],
+      "max_spacing": 19,
+      "max_leap": 4,
+      "eta": 0.3,
+      "motion_weight": 0.02,
+      "ties": [
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ]
+      ]
+    }
+  },
+  "global_voicing_gap": {
+    "chords": [
+      [
+        0,
+        4,
+        7
+      ],
+      [
+        2,
+        7,
+        11
+      ]
+    ],
+    "melody": [
+      67,
+      67
+    ],
+    "single": [
+      [
+        0.6,
+        0.4
+      ],
+      [
+        0.1,
+        0.9
+      ]
+    ],
+    "pair": [
+      [
+        [
+          0.06,
+          0.54
+        ],
+        [
+          0.04,
+          0.36
+        ]
+      ]
+    ],
+    "policy": {
+      "ranges": [
+        [
+          48,
+          60
+        ],
+        [
+          52,
+          64
+        ],
+        [
+          67,
+          67
+        ]
+      ],
+      "max_spacing": 19,
+      "max_leap": 2,
+      "eta": 0,
+      "motion_weight": 0,
+      "ties": [
+        [
+          false,
+          false,
+          false
+        ]
+      ]
+    }
+  }
+}
